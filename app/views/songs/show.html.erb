@@ -1,2 +1,2 @@
 <h1>My Song is<%=@song.name%></h1>
-link_to("My genre <%=@song.genre.name%>", genre_path(<%=@song.genre%>))
+<p><%=link_to My genre + @song.genre.name, genre_path(@song.genre)%></p>
