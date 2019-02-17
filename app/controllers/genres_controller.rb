@@ -2,7 +2,7 @@ class GenresController < ApplicationController
   def new
     @genre = Genre.new
   end
-  
+
   def show
     @genre = Genre.find(params[:id])
   end
