@@ -1,3 +1,3 @@
 <h1>My Song is<%=@song.name%></h1>
 <%binding.pry%>
-<p><%= link_to My genre + @song.genre.name, genre_path(@song.genre)%></p>
+<p><%= link_to @song.genre.name, genre_path(@song.genre)%></p>
