@@ -4,5 +4,5 @@ class SongsController < ApplicationController
     @song = Song.find(params[:id])
     @genre = @song.genre
   end
-  
+
 end
